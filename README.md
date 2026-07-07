@@ -30,6 +30,7 @@ All controls are contained within the Reflect Drop Monitoring Text Controller, w
 
 This was developed for use with the Netgear AV Line Switch plugin to control the network switch, but the output pin may be connected as desired for other control methods.
 
+* The user credentials that the AV Line Switch plugin uses to connect to the switch must be configured to allow read/write access in the configuration on the switch. Make sure this is allowed by security policies and access to these credentials is restricted.
 * In the AV Line Switch Plugin properties, "Write Access" must be set to "Yes", and "Port Information" must be set to "Extended"
 * Expose the "Enable/Disable Port" pin for the port the core uses to connect to the internet.
 * Wire the output pin of this component to the desired "Enable/Disable Port" pin.
